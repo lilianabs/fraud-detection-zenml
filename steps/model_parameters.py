@@ -12,7 +12,7 @@ class ModelParameters(BaseParameters):
               training the model.
     """
 
-    CAT_FEATURES: list[str] = [
+    CAT_FEATURES = [
         "hotel",
         "agent",
         "arrival_date_month",
@@ -24,7 +24,7 @@ class ModelParameters(BaseParameters):
         "customer_type",
     ]
 
-    NUM_FEATURES: list[str] = [
+    NUM_FEATURES = [
         "lead_time",
         "arrival_date_week_number",
         "arrival_date_day_of_month",
